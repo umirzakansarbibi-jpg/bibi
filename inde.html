@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Хостинг және домен</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6fb;
+    color: #222;
+}
+
+header {
+    background: #172554;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav {
+    background: #2563eb;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+    color: white;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+section {
+    margin-bottom: 35px;
+}
+
+section h2 {
+    color: #1d4ed8;
+    margin-bottom: 15px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px #00000012;
+}
+
+.card h3 {
+    color: #2563eb;
+    margin-bottom: 12px;
+}
+
+.card p {
+    line-height: 1.6;
+}
+
+p {
+    line-height: 1.7;
+}
+
+footer {
+    background: #172554;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+button {
+    background: white;
+    color: #2563eb;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 7px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #dbeafe;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>WEB HOSTING</h1>
+    <p>Веб-сайттарды Интернет желісінде жариялау</p>
+</header>
+
+<nav>
+    <a href="#hosting">Хостинг</a>
+    <a href="#types">Түрлері</a>
+    <a href="#domain">Домен</a>
+    <a href="#providers">Провайдерлер</a>
+</nav>
+
+<div class="hero">
+    <h2>Хостинг және домен әлемі</h2>
+    <p>Өз сайтыңды интернетке жариялауды үйрен!</p>
+    <button onclick="showMessage()">Толығырақ білу</button>
+</div>
+
+<div class="container">
+
+<section id="hosting">
+    <h2>Хостинг дегеніміз не?</h2>
+    <p>
+    Хостинг — веб-сайттың файлдарын интернетте сақтауға
+    арналған қызмет. Хостинг арқылы сайтты кез келген
+    адам интернеттен көре алады.
+    </p>
+</section>
+
+<section id="types">
+    <h2>Хостинг түрлері</h2>
+    <div class="cards">
+
+        <div class="card">
+            <h3>Shared Hosting</h3>
+            <p>Бір серверді бірнеше сайт бірге пайдаланады.
+            Шағын сайттарға қолайлы.</p>
+        </div>
+
+        <div class="card">
+            <h3>VPS Hosting</h3>
+            <p>Пайдаланушыға виртуалды жеке сервер беріледі.</p>
+        </div>
+
+        <div class="card">
+            <h3>Dedicated Server</h3>
+            <p>Бір сервер толығымен бір пайдаланушыға беріледі.</p>
+        </div>
+
+        <div class="card">
+            <h3>Cloud Hosting</h3>
+            <p>Сайт бірнеше сервердің ресурстарын пайдаланады.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="domain">
+    <h2>Домен дегеніміз не?</h2>
+    <p>
+    Домен — сайттың интернеттегі жеке атауы немесе мекенжайы.
+    Мысалы: google.com, youtube.com, kaspi.kz.
+    </p>
+
+    <div class="cards">
+        <div class="card">
+            <h3>.com</h3>
+            <p>Коммерциялық сайттар үшін.</p>
+        </div>
+
+        <div class="card">
+            <h3>.kz</h3>
+            <p>Қазақстанның ұлттық домені.</p>
+        </div>
+
+        <div class="card">
+            <h3>.org</h3>
+            <p>Ұйымдар мен қоғамдық жобалар үшін.</p>
+        </div>
+
+        <div class="card">
+            <h3>.edu</h3>
+            <p>Білім беру саласына арналған домен.</p>
+        </div>
+    </div>
+</section>
+
+<section id="providers">
+    <h2>Хостинг-провайдерлер</h2>
+    <div class="cards">
+
+        <div class="card">
+            <h3>Hostinger</h3>
+            <p>Хостинг және домен қызметтерін ұсынады.</p>
+        </div>
+
+        <div class="card">
+            <h3>Beget</h3>
+            <p>Сайттарды орналастыруға арналған қызмет.</p>
+        </div>
+
+        <div class="card">
+            <h3>GoDaddy</h3>
+            <p>Домен тіркеу және хостинг қызметтері.</p>
+        </div>
+
+        <div class="card">
+            <h3>GitHub Pages</h3>
+            <p>HTML сайттарын тегін жариялауға мүмкіндік береді.</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>Қорытынды</h2>
+    <p>
+    Хостинг пен домен — веб-сайтты интернетке жариялаудың
+    негізгі құралдары. Хостинг сайт файлдарын сақтайды,
+    ал домен сайттың мекенжайын анықтайды.
+    </p>
+</section>
+
+</div>
+
+<footer>
+    <p>© 2026 WEB HOSTING | Оқу жобасы</p>
+    <p>Хостинг және домен таңдау</p>
+</footer>
+
+<script>
+function showMessage() {
+    alert("Хостинг және домен туралы ақпаратқа қош келдіңіз!");
+}
+</script>
+
+</body>
+</html>
